@@ -1,0 +1,140 @@
+body {
+	background-color: antiquewhite;
+	background-image: url(https://img.freepik.com/free-vector/ecommerce-web-store-hand-drawn-illustration_107791-10966.jpg);
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+header {
+	font-family: "Roboto";
+	padding: 5px;
+	text-align: center;
+	background: wheat;
+	color: black;
+	font-size: 16px;
+}
+
+main {
+	font-family: "Georgia";
+	text-align: center;
+}
+
+footer {
+	font-family: "Roboto";
+	background: wheat;
+	min-height: 50px;
+	text-align: center;
+}
+
+ul>li {
+	display: inline;
+	text-align: center;
+	padding: 30px;
+	border-radius: 55px;
+}
+
+a,a.visited {
+	font-size: 24px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.disable-select {
+	user-select: none
+}
+
+.content_list {
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: end;
+	justify-content: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.content_box_1 {
+	display: flex;
+
+
+	font-family: "Roboto";
+	font-size: 32px;
+	height: 220px;
+
+	margin: .5rem;
+	background-color: wheat;
+	border-radius: 10px;
+}
+
+.content_box_2 {
+	display: flex;
+	font-family: "Roboto";
+	font-size: 32px;
+	height: 220px;
+
+	margin: .5rem;
+	background-color: wheat;
+	border-radius: 10px;
+}
+
+.content_box_3 {
+	display: flex;
+	font-family: "Roboto";
+	font-size: 32px;
+	height: 220px;
+
+	margin: .5rem;
+	background-color: wheat;
+	border-radius: 10px;
+}
+
+.content>img {
+
+	height: 160px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.tag {
+	margin-top: 20px;
+}
+
+.top {
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	color: black;
+	background-color: rgb(232, 204, 152);
+	margin-left: 350px;
+	margin-right: 350px;
+	border-radius: 20px;
+}
+
+.discriptions {
+	font-size: 26px;
+	display: flex;
+	justify-content: center;
+	color: black;
+	background-color: rgb(232, 204, 152);
+	margin-top: 100px;
+	margin-left: 80px;
+	margin-right: 80px;
+	border-radius: 20px;
+}
+
+.first_item {
+	display: flex;
+	font-family: "Roboto";
+	margin: .5rem;
+	background-color: rgb(243, 222, 65);
+}
+h1, p{
+	font-family: "Comic Sans";
+	font-size: 26px;
+	justify-self: center;
+}
+.content_item>img {
+	margin: 10px;
+	border-radius: 10px;
+}

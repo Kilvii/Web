@@ -1,0 +1,181 @@
+.about_product {
+    background-color: #624444;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    margin: 80px 200px;
+    padding: 20px;
+    width: 700px
+}
+
+.product_image {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px
+}
+
+.product_image>img,
+.wrapper {
+    border-radius: 15px
+}
+
+.product_image>img {
+    border-radius: 15px;
+    height: 150px;
+    margin-right: 40px;
+    width: 150px;
+    -moz-box-shadow: 0 0 5px #28d9f9;
+    -webkit-box-shadow: 0 0 5px #28d9f9;
+    box-shadow: #28d9f9;
+
+}
+
+.product_info,
+.product_name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px
+}
+
+.product_name {
+    font-size: 22px
+}
+
+.product_name:hover {
+    background-color: #675252;
+    border-radius: 5px;
+    color: #d2f1d4;
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+.content_box {
+    display: grid
+}
+
+.Tag {
+	margin-top: 160px;
+}
+
+.product_tag {
+	margin-top: 175px;
+}
+
+.product_image,
+.info_box {
+    margin-top: 25px
+}
+
+.info_box {
+    display: flex;
+    justify-items: center;
+    width: 470px
+}
+
+.info_box {
+    display: inline
+}
+
+.information {
+    background-color: rgb(255, 234, 195);
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    padding: 10px 40px;
+	margin-top: 20px;
+    width: auto
+}
+
+.all_prod {
+    align-items: center;
+    display: flex;
+    grid-column-end: 1;
+    grid-column-start: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto
+}
+
+.top {
+	display: flex;
+	font-size: 26px;
+	justify-content: center;
+	color: black;
+	background-color: rgb(232, 204, 152);
+	margin-left: 350px;
+
+	border-radius: 25px;
+	width: 200px;
+}
+
+.wrapper {
+    background-color: #f6e7d3;
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    height: 200px;
+    margin-bottom: 20px;
+    width: 800px;
+	text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+	background-image: url(https://img.freepik.com/free-vector/ecommerce-web-store-hand-drawn-illustration_107791-10966.jpg);
+	margin: 1;
+	display: grid;
+	justify-self: center;
+}
+
+main {
+	justify-self: center;
+}
+
+header {
+    margin-bottom: 20px
+}
+
+header {
+    background-color: wheat;
+    border-radius: 10px;
+    color: #191414;
+    font-size: 16px;
+    justify-self: center;
+    padding: 5px;
+    text-align: center;
+    width: 1000px
+}
+
+footer {
+    background-color: wheat;
+    border-radius: 10px;
+    color: #191414;
+    font-size: 16px;
+    justify-self: center;
+    padding: 5px;
+    text-align: center;
+    width: 1000px;
+	margin-top: auto;
+}
+
+p {
+	font-family: "Comic Sans";
+	font-size: 24px;
+}
+
+nav>span>ul {
+    text-align: center
+}
+
+span>ul>li:hover {
+    color: #baefea;
+    cursor: pointer
+}
+
+ul>li {
+    border-radius: 55px;
+    display: inline;
+    padding-left: 20px
+}
